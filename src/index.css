@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  border: 2px solid black;
+  height: 80vh;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-photo{
+  height: 40vh;
+  width: 300px;
+}
+.skill-list{
+  display:flex ;
+  flex-wrap: wrap;
+  margin: 10px 0 0px 20px;
+  gap: 8px;
+}
+.button-list{
+  border: none;
+  padding: 5px 5px 5px 5px;
+}
+.about{
+  margin-left: 20px;
+}
+.intro{
+  margin-top: 10px;
+}
